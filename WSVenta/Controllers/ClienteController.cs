@@ -45,7 +45,7 @@ namespace WSVenta.Controllers
         [HttpPost]
         public IActionResult Add(ClienteRequest oModel)
         {
-
+            var t = 0;
             Respuesta oRespuesta = new Respuesta();
             try
             {
